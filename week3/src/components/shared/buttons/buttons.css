@@ -1,0 +1,40 @@
+
+.button {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #D5D5D5;
+	background-image: linear-gradient(#EEE, #DDD);
+	font: 700 13px/18px Helvetica, arial;
+}
+
+.button__submit  {
+	color: #FFF;
+	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+	border-color: #4A993E;
+}
+
+.button__delete  {
+	color: #FFF;
+	background: rgb(173, 28, 52) linear-gradient( rgb(236, 65, 93), rgb(145, 16, 37)) repeat-x;
+	border-color: rgb(173, 28, 52);
+}
+
+.button__edit {
+	color: #FFF;
+	background: rgb(238, 164, 67) linear-gradient( rgb(243, 186, 139), rgb(250, 153, 26)) repeat-x;
+	border-color: rgb(238, 164, 67);
+}
+
+.button-size--small {
+    width: 70px;
+    height: 17,5;
+}
+.button-size--medium {
+    width: 100px;
+    height: 25,5px;
+}
+.button-size--big {
+    width: 130px;
+    height: 32,5px;
+}
